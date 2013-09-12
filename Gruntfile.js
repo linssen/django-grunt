@@ -4,9 +4,9 @@ module.exports = function(grunt) {
 
     grunt.initConfig({
         paths: {
-            'scripts': './static/scripts/',
-            'images': './static/images/',
-            'styles': './static/styles/'
+            'scripts': './django_icons/static/scripts/',
+            'images': './django_icons/static/images/',
+            'styles': './django_icons/static/styles/'
         },
 
         sass: {
